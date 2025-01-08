@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homework Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Homework Tracker</h1>
+    <form id="taskForm">
+      <input type="text" id="taskName" placeholder="Task Name" required>
+      <input type="date" id="taskDueDate" required>
+      <select id="taskPriority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button type="submit">Add Task</button>
+    </form>
+    <ul id="taskList"></ul>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
